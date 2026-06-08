@@ -922,7 +922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f8f566e-0892-47c2-bc21-d9e2fc0cbe7d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 187.96 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -979,7 +979,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/72a2c572-b62b-4403-90e5-092bcb40b1d2"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

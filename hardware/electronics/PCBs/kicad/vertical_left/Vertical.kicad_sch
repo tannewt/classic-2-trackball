@@ -294,6 +294,36 @@
 		)
 		(uuid "1d3e3a38-8ade-49d5-83ec-6f6de81fc4e3")
 	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a96f9e-7b3e-4757-abe1-11a3e2818afd")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39911a58-9de1-4196-bbfd-8a6e4744fdf1")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0ab280-d712-41b6-9533-79c1d71b708f")
+	)
 	(polyline
 		(pts
 			(xy 274.32 198.12) (xy 143.51 198.12)
@@ -316,6 +346,16 @@
 		)
 		(uuid "818f2cd3-bdac-4423-9a3e-63e389917032")
 	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b1c0a9-e568-451a-aeaf-c4ecd687f4b9")
+	)
 	(polyline
 		(pts
 			(xy 208.28 203.2) (xy 208.28 210.82)
@@ -327,6 +367,16 @@
 		)
 		(uuid "959b8311-4828-4313-a9ab-25af40f00f59")
 	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46e8d1a-0a5b-4981-9df7-499cfcc5c8d1")
+	)
 	(polyline
 		(pts
 			(xy 143.51 198.12) (xy 143.51 210.82)
@@ -337,6 +387,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "cf3da1cd-760e-43ab-8e89-3e6b44be1a7e")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d1bbb8-6aff-4f22-917b-6ea56f52c126")
 	)
 	(polyline
 		(pts
@@ -350,7 +410,7 @@
 		(uuid "f9a959bb-1847-4bdd-846d-bbb7a9045bb1")
 	)
 	(sheet
-		(at 142.24 83.82)
+		(at 149.86 83.82)
 		(size 43.18 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -367,7 +427,7 @@
 		)
 		(uuid "72a2c572-b62b-4403-90e5-092bcb40b1d2")
 		(property "Sheetname" "VPC"
-			(at 142.24 81.28 0)
+			(at 149.86 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -378,7 +438,7 @@
 			)
 		)
 		(property "Sheetfile" "VerticalPCBConnection.kicad_sch"
-			(at 142.24 83.82 0)
+			(at 149.86 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -389,7 +449,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 142.24 99.06 180)
+			(at 149.86 99.06 180)
 			(uuid "de82680b-def4-45c8-baee-4633a3f9fa11")
 			(effects
 				(font
@@ -399,7 +459,7 @@
 			)
 		)
 		(pin "ButtonRightClick" input
-			(at 142.24 88.9 180)
+			(at 149.86 88.9 180)
 			(uuid "a654333b-8792-433f-a599-e41654476eca")
 			(effects
 				(font
@@ -409,7 +469,7 @@
 			)
 		)
 		(pin "ButtonLeftClick" input
-			(at 142.24 86.36 180)
+			(at 149.86 86.36 180)
 			(uuid "cdc6a160-4b20-4ae9-8b6c-3b2a6c1b5059")
 			(effects
 				(font
@@ -419,7 +479,7 @@
 			)
 		)
 		(pin "ScrollWheelOpto1" input
-			(at 142.24 111.76 180)
+			(at 149.86 111.76 180)
 			(uuid "53d60344-b1e8-490f-8ab0-e5e508373b8b")
 			(effects
 				(font
@@ -429,7 +489,7 @@
 			)
 		)
 		(pin "ScrollWheelOpto0" input
-			(at 142.24 109.22 180)
+			(at 149.86 109.22 180)
 			(uuid "963cba7d-5575-46a8-a0ef-ec57cace0458")
 			(effects
 				(font
@@ -439,7 +499,7 @@
 			)
 		)
 		(pin "ButtonScrollWheel" input
-			(at 142.24 104.14 180)
+			(at 149.86 104.14 180)
 			(uuid "b1f1ea82-5bc6-4daf-bfab-44a6772117c7")
 			(effects
 				(font

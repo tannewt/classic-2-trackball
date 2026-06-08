@@ -320,6 +320,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LEDs:SCW_1_IR12-21C/TR8_LEDs.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -332,27 +486,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "D2"
+				(at -1.524 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "IR12-21C/TR8 or VSMB10940"
+				(at -1.524 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:TR8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,6 +539,126 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "SUPPLIER 1" "Digi-Key"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 2" "Mouser"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 3" "Digi-Key"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 4" "Mouser"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 5" "Arrow"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "1080-1351-1-ND"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 2" "638-IR12-21C"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 3" "VSMB10940CT-ND"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 4" "78-VSMB10940"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 5" "VSMB10940"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
 				)
 			)
 			(property "ki_fp_filters" "*IR12-21C/TR8*"
@@ -434,7 +710,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,7 +728,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -725,6 +1001,593 @@
 						)
 					)
 					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SCW_1_IR12-21C/TR8_LEDs.SchLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D1"
+				(at -1.524 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "IR12-21C/TR8 or VSMB10940"
+				(at -1.524 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "Library:TR8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Infrared (IR) Emitter 880nm 1.3V 50mA 1mW/sr @ 20mA 30° 2-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER 1" "Digi-Key"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 2" "Mouser"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 3" "Digi-Key"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 4" "Mouser"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 5" "Arrow"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "1080-1351-1-ND"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 2" "638-IR12-21C"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 3" "VSMB10940CT-ND"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 4" "78-VSMB10940"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 5" "VSMB10940"
+				(at 1.524 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "ki_fp_filters" "*IR12-21C/TR8*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SCW_1_IR12-21C/TR8_LEDs.SchLib_1_1_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27) (xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Qt2"
+				(at -0.762 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "PT26-51B/TR8 or PT12-21B/TR8"
+				(at -0.762 0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "PT26-51B/TR8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER 1" "Digi-Key"
+				(at 3.048 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "1080-1387-1-ND"
+				(at 3.048 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER 2" "Digi-Key"
+				(at 3.048 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 2" "1080-1377-1-ND"
+				(at 3.048 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "ki_fp_filters" "*PT26-51B/TR8*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1_1_0"
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy 2.032 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.27) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.27) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy 2.032 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -2.54) (xy 3.048 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -3.302) (xy 3.048 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.286) (xy 3.556 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.048) (xy 3.556 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -2.54) (xy 3.81 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -3.302) (xy 3.81 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 191 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 2.54 270)
+					(length 3.175)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1356,17 +2219,13 @@
 		(at 116.84 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2388cb74-147f-4421-aef3-61eccaeb611a")
+		(uuid "4e598cbc-e080-4798-b8c2-31df9a2173af")
 	)
 	(junction
 		(at 116.84 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6256a300-e367-411d-b663-5d89caebb8ff")
-	)
-	(no_connect
-		(at 116.84 83.82)
-		(uuid "b2f67ffe-3116-4dc9-8b3f-cb3db3572a1d")
 	)
 	(polyline
 		(pts
@@ -1381,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 116.84 137.16)
+			(xy 106.68 137.16) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1432,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 83.82) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4807de31-f7c4-4006-acbb-db6cabd038c3")
+	)
+	(wire
+		(pts
 			(xy 116.84 101.6) (xy 116.84 99.06)
 		)
 		(stroke
@@ -1463,6 +2332,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db3a08e-60bb-404e-9d07-71e4107527bc")
+	)
+	(wire
+		(pts
 			(xy 73.66 83.82) (xy 78.74 83.82)
 		)
 		(stroke
@@ -1491,16 +2370,6 @@
 			(type default)
 		)
 		(uuid "753ea683-9a40-4ac6-bf99-c2eca0ce6811")
-	)
-	(wire
-		(pts
-			(xy 116.84 149.86) (xy 116.84 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8efdf8b5-35af-47ae-9f55-8b623bdf30c8")
 	)
 	(polyline
 		(pts
@@ -1556,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 147.32) (xy 106.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c55df5-39fc-4e5a-b8bc-6d6fc5d89db9")
+	)
+	(wire
+		(pts
 			(xy 101.6 45.72) (xy 101.6 48.26)
 		)
 		(stroke
@@ -1584,16 +2463,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "c12e4216-d51b-45ce-9d0b-160ebb5d9cde")
-	)
-	(wire
-		(pts
-			(xy 116.84 137.16) (xy 116.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2ef74f-2544-4b16-9dc0-3769976d88fc")
 	)
 	(wire
 		(pts
@@ -1636,16 +2505,6 @@
 		)
 		(uuid "eee4736e-02f4-4dc3-a36d-b1a4194db91c")
 	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 78.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30b7dba-cae0-4efc-964d-ace216b06dc5")
-	)
 	(label "3V3"
 		(at 111.76 137.16 0)
 		(effects
@@ -1657,7 +2516,7 @@
 		(uuid "00b473aa-28ce-455a-9796-b9fed595e29c")
 	)
 	(label "3V3"
-		(at 73.66 83.82 0)
+		(at 76.2 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,7 +2600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed3eb4a-d11b-492d-96aa-54816c98426c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1798,7 +2657,89 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "#PWR?")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 78.74 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24a88762-d7f7-4746-a2bc-48cd69ed713f")
+		(property "Reference" "R1"
+			(at 81.28 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 81.28 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ae9c8a-9c4e-445f-8bbf-1a7f02aadb56")
+		)
+		(pin "2"
+			(uuid "ddaf420e-9c49-4d4d-82e4-a31a733ea092")
+		)
+		(instances
+			(project "Vertical"
+				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1955,7 +2896,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k"
 			(at 117.602 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +2907,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2060,7 +3001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70ef36da-701a-40f6-a6eb-e12d30658298")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2117,153 +3058,14 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Chip_Passives:SCW_1_Res 100R 1% 0805_Chip_Passives.SchLib")
-		(at 76.2 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83b8a716-b731-4eb5-af34-ccc52897f6d6")
-		(property "Reference" "R1"
-			(at 79.502 91.186 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0805"
-			(at 79.502 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0805"
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Chip resistor"
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 77.978 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 77.978 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "RMCF0805FT100RCT-ND"
-			(at 77.978 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "RMCF0805FT100RTR-ND"
-			(at 77.978 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100R 1%"
-			(at 79.502 96.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "7a44ed00-9fa9-4d67-afcc-b088974e1bb3")
-		)
-		(pin "2"
-			(uuid "8ceb1953-ee77-469a-b47a-6c909a5b5045")
-		)
-		(instances
-			(project "Vertical"
-				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SCW_1_IR12-21C/TR8_LEDs.SchLib_1")
 		(lib_id "LEDs:SCW_1_IR12-21C/TR8_LEDs.SchLib")
 		(at 78.74 101.6 180)
 		(unit 1)
@@ -2296,7 +3098,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "IR12-21C/TR8"
+		(property "Footprint" "Library:TR8"
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2449,10 +3251,10 @@
 				(justify right bottom)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "1dae1f1e-7683-4580-b686-361f2a2df994")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "aa9252ee-ee20-48c6-8381-ca55fefcc984")
 		)
 		(instances
@@ -2475,7 +3277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91017693-6bda-4903-aac1-c1ca6d075673")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +3334,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2560,7 +3362,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k"
 			(at 117.602 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +3373,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -2665,7 +3467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e8a2c15-b113-410c-9026-c898836d8480")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 78.74 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2722,7 +3524,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2761,7 +3563,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "IR12-21C/TR8"
+		(property "Footprint" "Library:TR8"
 			(at 78.74 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2914,10 +3716,10 @@
 				(justify right bottom)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "76ce8486-a021-45d5-8986-c14f1f5569ac")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "50e5be3a-1d87-4152-aa0a-9b564d18746a")
 		)
 		(instances
@@ -2930,8 +3732,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1")
 		(lib_id "OptoElectronics:SCW_1_PT26-51B/TR8_OptoElectronics.SchLib")
-		(at 116.84 147.32 180)
+		(at 106.68 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2941,7 +3744,7 @@
 		(dnp no)
 		(uuid "cab227b9-37ad-45c5-b017-552674191168")
 		(property "Reference" "Qt2"
-			(at 117.602 145.034 0)
+			(at 107.442 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2952,7 +3755,7 @@
 			)
 		)
 		(property "Value" "PT26-51B/TR8 or PT12-21B/TR8"
-			(at 117.602 147.574 0)
+			(at 107.442 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2963,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" "PT26-51B/TR8"
-			(at 116.84 147.32 0)
+			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 147.32 0)
+			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +3788,7 @@
 			)
 		)
 		(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
-			(at 116.84 147.32 0)
+			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +3799,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 113.792 142.748 0)
+			(at 103.632 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3811,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "1080-1387-1-ND"
-			(at 113.792 142.748 0)
+			(at 103.632 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3823,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Digi-Key"
-			(at 113.792 140.208 0)
+			(at 103.632 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3835,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "1080-1377-1-ND"
-			(at 113.792 140.208 0)
+			(at 103.632 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,10 +3846,10 @@
 				(justify right bottom)
 			)
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "c0f7abff-d6fe-4aeb-ab33-31c1473b2673")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "bf3ad155-b851-47e7-a271-c7588afd69a0")
 		)
 		(instances
@@ -3199,7 +4002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "effc8a8f-0fa9-449e-b57f-5abca765e65d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +4059,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3284,7 +4087,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100"
 			(at 79.502 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3295,7 +4098,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.2 147.32 0)
 			(hide yes)
 			(show_name no)

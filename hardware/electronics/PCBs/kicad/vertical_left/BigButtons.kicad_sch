@@ -1042,7 +1042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c685ab64-4d18-4d26-ad97-58be51737273")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 144.78 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1099,7 +1099,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/96e44928-dbfa-4a64-8d0c-5dc63a72135a"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1116,7 +1116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0e24b1c-5591-4f4b-9882-2f8ada59ca71")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 144.78 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1173,7 +1173,7 @@
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/96e44928-dbfa-4a64-8d0c-5dc63a72135a"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
