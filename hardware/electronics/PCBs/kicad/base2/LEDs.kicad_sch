@@ -1436,7 +1436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0256aef5-bc4a-4ebb-994c-3107e9b3d7d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -1493,7 +1493,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1532,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805 - TALL"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1626,7 +1626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29643a08-f90c-44b2-952c-4ad2c896e60a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1683,7 +1683,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1700,7 +1700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58304f85-957c-4ea8-b600-6a6a219a8fd8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1757,7 +1757,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2114,7 +2114,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2230,7 +2230,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805 - TALL"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2346,7 +2346,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2462,7 +2462,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805 - TALL"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2556,7 +2556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9828b66-6036-49fb-8785-5e7efb31cd99")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2613,7 +2613,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec53e41-3582-4584-a3c6-ae9c55893d43")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2687,7 +2687,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc9afe3e-8958-4dbe-b0a1-df0ca842689c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 124.46 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2761,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/2ac03787-079d-4255-b19b-ad1352fc6cd6"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

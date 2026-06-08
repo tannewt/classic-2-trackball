@@ -1712,34 +1712,34 @@
 	)
 	(hierarchical_label "~{CS}"
 		(shape input)
-		(at 175.26 91.44 180)
+		(at 160.02 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "04c6b217-ab88-47c3-aca8-d56ed803c881")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 175.26 99.06 180)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "17d8fc52-a619-42a9-b051-86397d3d891e")
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 175.26 101.6 180)
+		(at 160.02 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3fb01ff8-0140-4141-aa95-2c12a8cbc12b")
 	)
@@ -1767,23 +1767,23 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
-		(at 175.26 119.38 180)
+		(at 160.02 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b900ada2-edb4-4995-abab-57a2c0079c69")
 	)
 	(hierarchical_label "MOTION"
 		(shape output)
-		(at 175.26 109.22 180)
+		(at 160.02 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d3499af7-be7b-4d7c-bed3-4305f7f5461b")
 	)
@@ -1809,7 +1809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bdf5980-c989-41af-aef4-cade732fc0ee")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1866,7 +1866,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/8a78d703-83b0-46e6-9d5c-1d446365bd9c"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e07e7b2-b939-4420-ae14-b4a1ef31aff4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 91.44 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2063,7 +2063,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/8a78d703-83b0-46e6-9d5c-1d446365bd9c"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2091,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "10k"
 			(at 183.642 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2102,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2207,7 +2207,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "22R"
 			(at 163.322 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,7 +2218,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2347,7 +2347,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "10uF"
 			(at 93.726 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2358,7 +2358,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805 - TALL"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2487,7 +2487,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100nF"
 			(at 108.966 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2498,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805 - TALL"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2592,7 +2592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfa75f6c-e3f3-4558-801e-4edbe3630b5c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 106.68 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2649,7 +2649,7 @@
 		(instances
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/8a78d703-83b0-46e6-9d5c-1d446365bd9c"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2677,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "22R"
 			(at 163.322 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +2688,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 71.12 0)
 			(hide yes)
 			(show_name no)

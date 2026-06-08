@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Base.kicad_pro",
+    "filename": "Vertical.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -662,65 +662,48 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Base.kicad_sch",
-        "name": "Base",
-        "uuid": "d0aa5c71-a42d-40bb-b9da-a8c48d59eca1"
+        "filename": "Vertical.kicad_sch",
+        "name": "Vertical",
+        "uuid": "ddf7ec59-41eb-40e8-9c32-f8edbc666fb4"
       }
     ],
-    "used_designators": "R6,R9,L1,C3-4,C15,C22,C24,C26-35,Y1,#PWR9,#PWR11,#PWR14,#PWR42-49",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "d0aa5c71-a42d-40bb-b9da-a8c48d59eca1",
-      "Base"
+      "96e44928-dbfa-4a64-8d0c-5dc63a72135a",
+      "BBS"
     ],
     [
-      "2ac03787-079d-4255-b19b-ad1352fc6cd6",
-      "LED"
-    ],
-    [
-      "bb10a929-24d3-4b18-a317-fa3165fa7aac",
-      "LBS"
-    ],
-    [
-      "85f7b59c-4fd1-4617-9fbd-1127d31d6d70",
-      "MCU"
-    ],
-    [
-      "9e2854e6-1f30-4f29-ad7a-2b7a06a8457c",
+      "dd7e6be5-d723-4b20-9446-54f1b997c9d7",
       "MCH"
     ],
     [
-      "8a78d703-83b0-46e6-9d5c-1d446365bd9c",
-      "MOS"
+      "bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8",
+      "SCW"
     ],
     [
-      "b93d6e5a-51c2-4578-bc1c-c9c8dffe719c",
-      "REG"
+      "ddf7ec59-41eb-40e8-9c32-f8edbc666fb4",
+      "Vertical"
     ],
     [
-      "66301f0c-b18a-4a4e-81f3-7fe51cd45b0d",
-      "USB"
-    ],
-    [
-      "f5f5586f-f169-42cc-b653-33aac5b8d7de",
+      "72a2c572-b62b-4403-90e5-092bcb40b1d2",
       "VPC"
     ]
   ],
   "text_variables": {
     "ADDRESS1": "137-1140 Burnhamthorpe Road W",
-    "ADDRESS2": "Mississauga",
+    "ADDRESS2": "",
     "ADDRESS3": "Ontario",
-    "ADDRESS4": "Canada L5C 0A3",
-    "AUTHOR": "",
+    "ADDRESS4": "",
     "CONFIGURATIONPARAMETERS": "",
     "CONFIGURATORNAME": "",
-    "DOCUMENTNUMBER": "2",
+    "DOCUMENTNUMBER": "3",
     "ISUSERCONFIGURABLE": "",
     "ORGANIZATION": "Ploopy Corporation",
     "PAGESETUP": "",
-    "SHEETTOTAL": "9",
+    "SHEETTOTAL": "5",
     "VERSIONCONTROL_PROJFOLDERREVNUMBER": "",
     "VERSIONCONTROL_REVNUMBER": ""
   },
