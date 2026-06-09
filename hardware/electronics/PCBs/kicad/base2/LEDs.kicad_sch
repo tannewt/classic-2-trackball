@@ -1521,7 +1521,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100nF"
 			(at 111.76 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,7 +1532,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2103,7 +2103,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k"
 			(at 132.842 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2219,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100nF"
 			(at 111.76 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2230,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2335,7 +2335,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k"
 			(at 154.686 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2451,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100nF"
 			(at 111.76 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2462,7 +2462,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)

@@ -1444,7 +1444,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1658,7 +1658,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "AP2202 - SOT95P270X145-5N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1820,7 +1820,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2312,7 +2312,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2740,7 +2740,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 73.66 0)
 			(hide yes)
 			(show_name no)

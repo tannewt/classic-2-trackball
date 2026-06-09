@@ -5977,7 +5977,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "W25Q128JVS - SOIC127P790X216-8M"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
 			(at 144.78 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6169,7 +6169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 70.231 124.333 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 138.557 226.441 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 159.258 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6688,7 +6688,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "10k"
 			(at 225.806 84.4042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,7 +6804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 124.841 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +6875,7 @@
 		(fields_autoplaced yes)
 		(uuid "582f948a-ac21-402b-b89c-f740153addcb")
 		(property "Reference" "C27"
-			(at 60.96 96.52 0)
+			(at 60.96 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6885,8 +6885,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 60.96 99.06 0)
+		(property "Value" "4.7uF"
+			(at 60.96 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6896,7 +6896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6965,7 +6965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 138.557 236.601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +7036,7 @@
 		(fields_autoplaced yes)
 		(uuid "6abc5676-713a-44b6-bcc7-442c5f3565a6")
 		(property "Reference" "C28"
-			(at 95.25 83.82 0)
+			(at 95.25 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7046,8 +7046,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 95.25 86.36 0)
+		(property "Value" "4.7uF"
+			(at 95.25 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7126,7 +7126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 181.991 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 58.801 124.333 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +8034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 47.371 124.333 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 113.411 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 147.701 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8643,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2f1982f-5868-4ea4-8f0d-e363009f1dcb")
 		(property "Reference" "L1"
-			(at 73.66 96.52 0)
+			(at 73.66 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8653,8 +8653,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3u"
-			(at 73.66 99.06 0)
+		(property "Value" "3.3uH"
+			(at 73.66 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8887,7 +8887,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k"
 			(at 200.406 84.4042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,7 +9078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 170.561 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 136.271 111.633 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9326,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.8 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9422,7 +9422,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb318ffb-05c6-4a95-87c2-337feb472983")
 		(property "Reference" "C26"
-			(at 48.641 96.9553 0)
+			(at 49.53 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9432,8 +9432,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 48.641 99.4922 0)
+		(property "Value" "4.7uF"
+			(at 49.53 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9443,7 +9443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.6852 101.6 0)
 			(hide yes)
 			(show_name no)

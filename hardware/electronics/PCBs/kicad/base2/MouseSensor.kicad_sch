@@ -1430,18 +1430,6 @@
 		(color 0 0 0 0)
 		(uuid "edaa1c3e-ee3e-40dd-98a7-c9e4d9aeca34")
 	)
-	(no_connect
-		(at 116.84 109.22)
-		(uuid "3a5b8c96-e84e-4cd8-843e-c5e1b220f2ad")
-	)
-	(no_connect
-		(at 160.02 86.36)
-		(uuid "7ed7f00f-4ab4-4f82-9fa5-a8672b7ff3a9")
-	)
-	(no_connect
-		(at 116.84 116.84)
-		(uuid "8a071db9-4def-4077-958f-a5f758d67242")
-	)
 	(wire
 		(pts
 			(xy 177.8 76.2) (xy 182.88 76.2)
@@ -2498,7 +2486,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
