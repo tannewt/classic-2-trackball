@@ -748,6 +748,17 @@
 		)
 		(uuid "f63bc0f0-ce50-4fb2-896f-8285fb758be3")
 	)
+	(hierarchical_label "LEDDataOut"
+		(shape input)
+		(at 74.93 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24516116-64c2-42f0-abbc-c5d92a97bc53")
+	)
 	(hierarchical_label "ScrollWheelOpto1"
 		(shape output)
 		(at 165.1 83.82 0)
@@ -781,6 +792,17 @@
 		)
 		(uuid "37ea4b62-452d-4366-8f6e-efd39a4b0f4a")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 74.93 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4411eaa4-d03c-4b09-8fe7-286b2903b0f4")
+	)
 	(hierarchical_label "ButtonRightClick"
 		(shape output)
 		(at 165.1 104.14 0)
@@ -813,6 +835,85 @@
 			(justify left)
 		)
 		(uuid "eb5a4a3b-8364-4dc2-b851-b74e603d3247")
+	)
+	(symbol
+		(lib_id "PCBFeatures:VPC_0_PCBJoint_PCBFeatures.SchLib")
+		(at 72.39 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33656a51-3d56-48ac-bc22-ce4d8deb7b9c")
+		(property "Reference" "CJ10"
+			(at 59.69 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "PCBJointCastellationJoint"
+			(at 71.12 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "PCBJoint"
+			(at 72.39 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pad for soldering a castellated PCB edge. Easy way to join two PCBs together."
+			(at 72.39 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1bd2e27-317d-4323-af81-c6206c0423a7")
+		)
+		(instances
+			(project "Base"
+				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/f5f5586f-f169-42cc-b653-33aac5b8d7de"
+					(reference "CJ10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCBFeatures:VPC_0_PCBJoint_PCBFeatures.SchLib")
@@ -1436,6 +1537,85 @@
 			(project "Base"
 				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/f5f5586f-f169-42cc-b653-33aac5b8d7de"
 					(reference "CJ8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBFeatures:VPC_0_PCBJoint_PCBFeatures.SchLib")
+		(at 72.39 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0cf7326-2853-45cd-885b-5146c1e1ee28")
+		(property "Reference" "CJ11"
+			(at 59.69 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "PCBJointCastellationJoint"
+			(at 71.12 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "PCBJoint"
+			(at 72.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pad for soldering a castellated PCB edge. Easy way to join two PCBs together."
+			(at 72.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f6404b-382c-42ca-b8d7-43dbb92b0906")
+		)
+		(instances
+			(project "Base"
+				(path "/d0aa5c71-a42d-40bb-b9da-a8c48d59eca1/f5f5586f-f169-42cc-b653-33aac5b8d7de"
+					(reference "CJ11")
 					(unit 1)
 				)
 			)

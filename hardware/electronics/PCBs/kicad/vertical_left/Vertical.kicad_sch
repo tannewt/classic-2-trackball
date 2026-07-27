@@ -377,6 +377,16 @@
 		)
 		(uuid "c46e8d1a-0a5b-4981-9df7-499cfcc5c8d1")
 	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0b9a9f-fab7-47ff-88a8-9ce98931108b")
+	)
 	(polyline
 		(pts
 			(xy 143.51 198.12) (xy 143.51 210.82)
@@ -387,6 +397,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "cf3da1cd-760e-43ab-8e89-3e6b44be1a7e")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6955c5-da59-433a-9ac6-5bae1cc1827b")
 	)
 	(wire
 		(pts
@@ -508,10 +528,96 @@
 				(justify left)
 			)
 		)
+		(pin "5V" output
+			(at 193.04 86.36 0)
+			(uuid "a0599704-33bb-43e7-84f2-88411ed277db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDData" output
+			(at 193.04 88.9 0)
+			(uuid "5f274311-f7d9-479c-841c-16e8ea05e26d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 83.82)
+		(size 26.67 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "855e94e7-b2d2-4f63-a7eb-240244c0c001")
+		(property "Sheetname" "LEDs"
+			(at 199.39 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 199.39 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LEDData" input
+			(at 199.39 88.9 180)
+			(uuid "42e70009-4646-451f-aca2-d04eecf8364a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_USB" input
+			(at 199.39 86.36 180)
+			(uuid "fad50e47-dcd3-4866-a5e4-b1d0c33b5fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Vertical"
+				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4"
+					(page "1")
 				)
 			)
 		)

@@ -559,6 +559,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -681,10 +682,14 @@
         "uuid": "ddf7ec59-41eb-40e8-9c32-f8edbc666fb4"
       }
     ],
-    "used_designators": "R1,#PWR1-9",
+    "used_designators": "D3-5,C20,C23,C25,CJ10-11,R1,R16-17,#PWR1-15",
     "variants": []
   },
   "sheets": [
+    [
+      "855e94e7-b2d2-4f63-a7eb-240244c0c001",
+      "LEDs"
+    ],
     [
       "96e44928-dbfa-4a64-8d0c-5dc63a72135a",
       "BBS"
