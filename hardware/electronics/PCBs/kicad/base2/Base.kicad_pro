@@ -567,6 +567,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -694,12 +695,12 @@
   },
   "sheets": [
     [
-      "d0aa5c71-a42d-40bb-b9da-a8c48d59eca1",
-      "Base"
-    ],
-    [
       "2ac03787-079d-4255-b19b-ad1352fc6cd6",
       "LED"
+    ],
+    [
+      "d0aa5c71-a42d-40bb-b9da-a8c48d59eca1",
+      "Base"
     ],
     [
       "bb10a929-24d3-4b18-a317-fa3165fa7aac",
