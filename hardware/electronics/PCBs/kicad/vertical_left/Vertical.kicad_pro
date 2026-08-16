@@ -683,7 +683,7 @@
         "uuid": "ddf7ec59-41eb-40e8-9c32-f8edbc666fb4"
       }
     ],
-    "used_designators": "D3-5,C20,C23,C25,CJ10-11,R1,R16-17,#PWR1-15",
+    "used_designators": "Q1-2,D3-5,C20,C23,C25,CJ10-11,R1,R16-17,#PWR1-15",
     "variants": []
   },
   "sheets": [

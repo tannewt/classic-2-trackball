@@ -320,6 +320,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_Photo_NPN_EC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Photo_NPN_EC"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN phototransistor, emitter/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "phototransistor NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN_EC_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN_EC_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -739,278 +964,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OptoElectronics:SCW_1_PT26-51B/TR8_OptoElectronics.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*PT26-51B/TR8*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 2.032 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.572) (xy 2.032 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.762) (xy 2.032 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -2.54) (xy 3.048 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -3.302) (xy 3.048 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.286) (xy 3.556 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.048) (xy 3.556 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -2.54) (xy 3.81 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -3.302) (xy 3.81 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin open_collector line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 0 2.54 270)
-					(length 3.175)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SCW_1_IR12-21C/TR8_LEDs.SchLib_1"
 			(pin_numbers
 				(hide yes)
@@ -1259,328 +1212,6 @@
 					(at 0 2.54 270)
 					(length 2.54)
 					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Qt2"
-				(at -0.762 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "PT26-51B/TR8 or PT12-21B/TR8"
-				(at -0.762 0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" "PT26-51B/TR8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SUPPLIER 1" "Digi-Key"
-				(at 3.048 -4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "1080-1387-1-ND"
-				(at 3.048 -4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "SUPPLIER 2" "Digi-Key"
-				(at 3.048 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 2" "1080-1377-1-ND"
-				(at 3.048 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "ki_fp_filters" "*PT26-51B/TR8*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1_1_0"
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 2.032 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.572) (xy 2.032 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.762) (xy 2.032 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -2.54) (xy 3.048 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -3.302) (xy 3.048 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.286) (xy 3.556 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.048) (xy 3.556 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -2.54) (xy 3.81 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -3.302) (xy 3.81 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 191 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin open_collector line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 0 2.54 270)
-					(length 3.175)
-					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2746,135 +2377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OptoElectronics:SCW_1_PT26-51B/TR8_OptoElectronics.SchLib")
-		(at 116.84 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28b107e7-201a-4220-a35e-fd3b1b1b9d70")
-		(property "Reference" "Qt1"
-			(at 117.602 91.694 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "PT26-51B/TR8 or PT12-21B/TR8"
-			(at 117.602 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "PT26-51B/TR8"
-			(at 116.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
-			(at 116.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 113.792 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "1080-1387-1-ND"
-			(at 113.792 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 113.792 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "1080-1377-1-ND"
-			(at 113.792 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "C"
-			(uuid "1a6cfec3-481e-41b2-847c-bb635bb1b306")
-		)
-		(pin "E"
-			(uuid "97f76be2-8035-455e-8cea-2666239c1cf7")
-		)
-		(instances
-			(project "Vertical"
-				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "Qt1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chip_Passives:SCW_1_Res 1k 1% 0805_Chip_Passives.SchLib")
 		(at 114.3 109.22 180)
 		(unit 1)
@@ -2991,6 +2493,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_Photo_NPN_EC")
+		(at 114.3 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c83ed8f-4854-4d08-9534-2764792d17f7")
+		(property "Reference" "Q1"
+			(at 119.38 89.4206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PT26-51B/TR8"
+			(at 119.38 91.9606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IR:PT26-51B-TR8"
+			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN phototransistor, emitter/collector"
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92fbdda2-8c99-46be-8819-ee602cb189e2")
+		)
+		(pin "2"
+			(uuid "90483550-9385-4786-a26d-69df18ec726c")
+		)
+		(instances
+			(project "Vertical"
+				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Photo_NPN_EC")
+		(at 104.14 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5138f0ed-5330-4b23-bccd-5b3b41be0a3b")
+		(property "Reference" "Q2"
+			(at 109.22 140.2206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PT26-51B/TR8"
+			(at 109.22 142.7606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IR:PT26-51B-TR8"
+			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN phototransistor, emitter/collector"
+			(at 104.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f7800d9-2071-4629-a0ad-f56ada8f4c36")
+		)
+		(pin "2"
+			(uuid "5204e0d0-5fa7-4ff8-8470-4a9b3b8ef905")
+		)
+		(instances
+			(project "Vertical"
+				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Vertical-altium-import:GND_POWER_GROUND")
 		(at 116.84 111.76 0)
 		(unit 1)
@@ -3098,7 +2764,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Library:TR8"
+		(property "Footprint" "IR:IR12-21CTR8"
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3229,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Library:TR8"
+		(property "Footprint" "IR:IR12-21CTR8"
 			(at 78.74 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3726,136 +3392,6 @@
 			(project "Vertical"
 				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SCW_1_PT26-51B/TR8_OptoElectronics.SchLib_1")
-		(lib_id "OptoElectronics:SCW_1_PT26-51B/TR8_OptoElectronics.SchLib")
-		(at 106.68 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cab227b9-37ad-45c5-b017-552674191168")
-		(property "Reference" "Qt2"
-			(at 107.442 142.494 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "PT26-51B/TR8 or PT12-21B/TR8"
-			(at 107.442 145.034 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "PT26-51B/TR8"
-			(at 106.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Phototransistor 940nm Side View 1206 (3216 Metric)"
-			(at 106.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 103.632 140.208 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "1080-1387-1-ND"
-			(at 103.632 140.208 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 103.632 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "1080-1377-1-ND"
-			(at 103.632 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "c0f7abff-d6fe-4aeb-ab33-31c1473b2673")
-		)
-		(pin "1"
-			(uuid "bf3ad155-b851-47e7-a271-c7588afd69a0")
-		)
-		(instances
-			(project "Vertical"
-				(path "/ddf7ec59-41eb-40e8-9c32-f8edbc666fb4/bfeb6968-5ba0-4890-bfe4-4fb17e3f9bf8"
-					(reference "Qt2")
 					(unit 1)
 				)
 			)
